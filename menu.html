@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+        .menu-button {
+            background-color: transparent;
+            color: black;
+            cursor: pointer;
+            border: 1px solid red;
+            font-size: 24px;
+        }
+
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-menu {
+            /* display: none; */
+            position: absolute;
+            background-color: rgb(194, 194, 194);
+            min-width: 155px;
+            z-index: 1;
+            animation: growDown 0.5s ease-in-out forwards;
+            transform-origin: top center;
+        }
+
+        @keyframes growDown {
+            0% {
+                transform: scaleY(0);
+            }
+
+            80% {
+                transform: scaleY(1.1);
+            }
+
+            100% {
+                transform: scaleY(1);
+            }
+        }
+
+        .dropdown-menu li {
+            list-style: none;
+            width: 100%;
+        }
+
+        .dropdown-menu a {
+            text-decoration: none;
+            transition: all 0.25s ease;
+            width: 100%;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .menu:hover .dropdown-menu {
+            display: block;
+        }
+
+        .menu:hover .menu-button {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <button class="menu-button">Our Collection</button>
+        <img src="cars img\chevron-down-regular-24.png" alt="" />
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Collection</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

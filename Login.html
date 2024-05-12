@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/FASTKAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra&family=Josefin+Sans:wght@200&family=Poppins:wght@500&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet" />
+    <style>
+        body {
+            background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a6676bc-9c03-4734-a765-cf7d7b59d05b/d8pv6xo-3fe7ebb4-2b4a-4813-aa30-e373a86575d2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhNjY3NmJjLTljMDMtNDczNC1hNzY1LWNmN2Q3YjU5ZDA1YlwvZDhwdjZ4by0zZmU3ZWJiNC0yYjRhLTQ4MTMtYWEzMC1lMzczYTg2NTc1ZDIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CJfUi-DEiEpvFMD1LbFtD51UMjRJudrAvjRVkjUAU-Y);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 130px;
+            font-family: poppins, quicksand;
+            text-align: center;
+            color: white;
+        }
+
+        .container-box p {
+            margin: 8px;
+        }
+
+        .container-box {
+            max-width: 500px;
+            height: 400px;
+            padding: 10px 60px;
+            background: rgb(225, 16, 220);
+            background: linear-gradient(180deg, rgba(225, 16, 220, 1) 29%, rgba(90, 38, 204, 1) 100%);
+            box-shadow: 0px 0px 5px rgb(0, 0, 0);
+            border-radius: 5px;
+        }
+
+        .input {
+            border: solid black;
+            border-radius: 30px;
+            width: 200px;
+            height: 30px;
+            padding: 0px 20px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            -webkit-border-radius: 5;
+            -moz-border-radius: 5;
+            border-radius: 5px;
+            -webkit-box-shadow: 0px 1px 3px #666666;
+            -moz-box-shadow: 0px 1px 3px #666666;
+            box-shadow: 0px 1px 3px #000000;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 15px;
+            background: #2196f3;
+            padding: 5px 15px 5px 15px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            border: solid #000000 3px;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background: #00ff26;
+            text-decoration: none;
+            color: black;
+        }
+
+        .container-box a {
+            color: white;
+            font-size: smaller;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-box">
+            <h1>Login</h1>
+            <h4>Enter Your Details Below To Log in into your Account</h4>
+
+            <p>Enter Your Username:</p>
+            <input class="input" type="text" placeholder="eg. stephenparker123" /><br>
+
+            <p>Enter Your Password:</p>
+            <input class="input" type="text" placeholder="eg. aDxojTf@000" /><br>
+
+            <button type="button" onclick="location.href='index.html'">Login</button><br>
+            <a href="SignUp.html">New User? Sign up Here</a>
+        </div>
+    </div>
+</body>
+
+</html>

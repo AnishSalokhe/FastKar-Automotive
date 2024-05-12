@@ -1,0 +1,39 @@
+/* .flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .home-k-more button{
+    display: flex;
+    position:relative;
+    margin: 364px 0 0 111px;
+    text-align: center;
+    justify-content: center;
+    background: rgb(255, 0, 0);
+    background-image: -webkit-linear-gradient(top, #ff0000, #7d1212);
+    background-image: -moz-linear-gradient(top, #ff0000, #7d1212);
+    background-image: -ms-linear-gradient(top, #ff0000, #7d1212);
+    background-image: -o-linear-gradient(top, #ff0000, #7d1212);
+    background-image: linear-gradient(to bottom, #ff0000, #7d1212);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    -webkit-box-shadow: 2px 2px 5px #000000;
+    -moz-box-shadow: 2px 2px 5px #000000;
+    box-shadow: 2px 2px 5px #000000;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 3px 40px 5px 40px;
+    text-decoration: none;
+}
+.home-k-more button:hover{
+    background: #f70000;
+  background-image: -webkit-linear-gradient(top, #f70000, #ff0000);
+  background-image: -moz-linear-gradient(top, #f70000, #ff0000);
+  background-image: -ms-linear-gradient(top, #f70000, #ff0000);
+  background-image: -o-linear-gradient(top, #f70000, #ff0000);
+  background-image: linear-gradient(to bottom, #f70000, #ff0000);
+  text-decoration: none;
+} */
